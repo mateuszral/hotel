@@ -16,16 +16,13 @@ export const colors = {
   grey300: 'hsl(0, 0%, 87%)',
   grey400: 'hsl(0, 0%, 91%)',
   grey500: 'hsl(0, 0%, 97%)',
-  primary: '#FFD226',
+  primary: 'hsl(219 ,57%, 18%)',
+  secondary: 'hsl(39, 64%, 66%)',
 };
 
 export const font = {
   size: {
-    bigHeader: '10rem',
-    header: '4.8rem',
-    articleHeader: '2.6rem',
-    logo: '2rem',
-    infoParagraph: '1.8rem',
+    header: '4rem',
     paragraph: '1.6rem',
     button: '1.3rem',
   },

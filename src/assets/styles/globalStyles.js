@@ -1,5 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
+
 import 'vendors/normalize.css';
+
+import { theme } from 'assets/styles/theme';
 
 const GlobalStyles = createGlobalStyle`
   html {
@@ -18,6 +21,12 @@ const GlobalStyles = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
     font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: ${theme.primary}
+  }
+
+  a {
+    color: ${theme.primary}
   }
 
   h1, h2, h3, h4, h5, span {
@@ -27,6 +36,7 @@ const GlobalStyles = createGlobalStyle`
   button {
     padding: 0;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
   }
 
   ul {
