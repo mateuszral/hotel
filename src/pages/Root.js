@@ -12,14 +12,14 @@ import Contact from 'pages/Contact';
 
 const Root = () => (
   <BrowserRouter>
-    <MainTemplate>
-      <Switch>
+    <Switch>
+      <MainTemplate>
         <Route exact path={routes.home} component={Home} />
         <Route exact path={routes.facilities} component={Facilities} />
         <Route exact path={routes.rooms} component={Rooms} />
         <Route exact path={routes.contact} component={Contact} />
-      </Switch>
-    </MainTemplate>
+      </MainTemplate>
+    </Switch>
   </BrowserRouter>
 );
 
