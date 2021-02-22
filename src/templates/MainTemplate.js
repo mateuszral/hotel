@@ -10,10 +10,10 @@ import hero from 'assets/images/hero.png';
 import hero2 from 'assets/images/hero2.png';
 import hero3 from 'assets/images/hero3.png';
 
-import Navigation from 'components/Navigation/Navigation';
-import HeroImage from 'components/HeroImage/HeroImage';
-import Testimonials from 'components/Testimonials/Testimonials';
-import Footer from 'components/Footer/Footer';
+import HeroImage from 'components/molecules/HeroImage/HeroImage';
+import Testimonials from 'components/molecules/Testimonials/Testimonials';
+import Navigation from 'components/organisms/Navigation/Navigation';
+import Footer from 'components/organisms/Footer/Footer';
 
 import { routes } from 'routes';
 
@@ -49,6 +49,9 @@ const MainTemplate = ({ children, location }) => {
 
 MainTemplate.propTypes = {
   children: PropTypes.arrayOf(PropTypes.element.isRequired).isRequired,
+  location: PropTypes.shape({
+    pathname: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default MainTemplate;
