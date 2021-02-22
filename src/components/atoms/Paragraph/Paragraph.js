@@ -8,6 +8,7 @@ const Paragraph = styled.p`
     return '15px 0';
   }};
   font-weight: ${({ theme, semiBold }) => semiBold && theme.font.weight.semiBold};
+  font-weight: ${({ theme, bold }) => bold && theme.font.weight.bold};
   font-size: ${({ theme, smallFont }) =>
     smallFont ? theme.font.size.paragraph : theme.font.size.link};
   line-height: 26px;
