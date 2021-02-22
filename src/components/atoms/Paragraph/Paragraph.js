@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const Paragraph = styled.p`
-  letter-spacing: 2px;
   margin: ${({ smallMargin, bigMargin, marginBottom }) => {
     if (smallMargin) return '5px 0';
     if (bigMargin) return '40px 0';
@@ -11,6 +10,7 @@ const Paragraph = styled.p`
   font-weight: ${({ theme, semiBold }) => semiBold && theme.font.weight.semiBold};
   font-size: ${({ theme, smallFont }) =>
     smallFont ? theme.font.size.paragraph : theme.font.size.link};
+  line-height: 26px;
 
   ${({ theme }) => theme.mq.tablet} {
     width: ${({ halfWidth }) => halfWidth && '50%'};
