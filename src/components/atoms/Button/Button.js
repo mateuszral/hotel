@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Button = styled.button`
-  color: ${({ theme, inheritColor }) => (inheritColor ? 'inherit' : theme.white)};
+  color: ${({ theme, primaryColor }) => (primaryColor ? theme.primary : theme.white)};
   background-color: ${({ theme, transparentBackground }) =>
     transparentBackground ? 'transparent' : theme.secondary};
   font-weight: ${({ theme }) => theme.font.weight.semiBold};
