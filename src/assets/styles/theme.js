@@ -22,12 +22,15 @@ export const colors = {
 
 export const font = {
   size: {
+    bigHeader: '14rem',
     header: '4rem',
+    link: '2.4rem',
     paragraph: '1.6rem',
     button: '1.3rem',
   },
   weight: {
     regular: '400',
+    semiBold: '600',
     bold: '700',
   },
 };
