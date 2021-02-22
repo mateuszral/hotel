@@ -51,7 +51,11 @@ MainTemplate.propTypes = {
   children: PropTypes.arrayOf(PropTypes.element.isRequired).isRequired,
   location: PropTypes.shape({
     pathname: PropTypes.string.isRequired,
-  }).isRequired,
+  }),
+};
+
+MainTemplate.defaultProps = {
+  location: null,
 };
 
 export default MainTemplate;
