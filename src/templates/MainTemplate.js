@@ -40,7 +40,7 @@ const MainTemplate = ({ children, location }) => {
         <Navigation />
         {pathname !== routes.contact && <HeroImage src={image} />}
         {children}
-        <Testimonials />
+        {pathname !== routes.contact && <Testimonials />}
         <Footer />
       </ThemeProvider>
     </>

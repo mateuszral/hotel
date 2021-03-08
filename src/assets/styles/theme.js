@@ -24,6 +24,7 @@ export const font = {
   size: {
     bigHeader: '14rem',
     header: '4rem',
+    icon: '3.2rem',
     link: '2.4rem',
     paragraph: '1.6rem',
     button: '1.3rem',
