@@ -11,7 +11,7 @@ const StyledWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px ${({ theme }) => theme.layout.mobileSidesPadding};
+  padding: ${({ theme }) => theme.layout.mobileSidesPadding};
 `;
 
 const StyledContentWrapper = styled.div`
@@ -53,10 +53,11 @@ const Facilities = () => {
       <StyledContentWrapper>
         <Header>Facilities</Header>
         <Paragraph smallFont semiBold>
-          We want your stay at our lush hotel to be truly unforgettable. That is why we give special
-          attention to all of your needs so that we can ensure an experience quite uniquw. Luxury
-          hotels offers the perfect setting with stunning views for leisure and our modern luxury
-          resort facilities will help you enjoy the best of all.
+          We want your stay at our lush hotel to be truly unforgettable. That is
+          why we give special attention to all of your needs so that we can
+          ensure an experience quite uniquw. Luxury hotels offers the perfect
+          setting with stunning views for leisure and our modern luxury resort
+          facilities will help you enjoy the best of all.
         </Paragraph>
         {facilities.map(({ name, image }) => (
           <StyledFacilityItem key={name}>

@@ -5,10 +5,10 @@ import MainTemplate from 'templates/MainTemplate';
 
 import { routes } from 'routes';
 
-import Home from 'pages/Home';
-import Facilities from 'pages/Facilities';
-import Rooms from 'pages/Rooms';
-import Contact from 'pages/Contact';
+import Home from './Home';
+import Facilities from './Facilities';
+import Rooms from './Rooms';
+import Contact from './Contact';
 
 const Root = () => (
   <BrowserRouter>
