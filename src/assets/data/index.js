@@ -5,6 +5,10 @@ import pool from 'assets/images/pool.png';
 import restaurant from 'assets/images/restaurant.png';
 import laundry from 'assets/images/laundry.png';
 
+import singleRoom from 'assets/images/single-room.png';
+import doubleRoom from 'assets/images/double-room.png';
+import twinRoom from 'assets/images/twin-room.png';
+
 export const facilities = [
   {
     name: 'THE GYM',
@@ -29,5 +33,23 @@ export const facilities = [
   {
     name: 'LAUNDRY',
     image: laundry,
+  },
+];
+
+export const rooms = [
+  {
+    name: 'SINGLE ROOM',
+    price: 147,
+    image: singleRoom,
+  },
+  {
+    name: 'DOUBLE ROOM',
+    price: 155,
+    image: doubleRoom,
+  },
+  {
+    name: 'TWIN ROOM',
+    price: 165,
+    image: twinRoom,
   },
 ];
