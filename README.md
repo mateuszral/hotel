@@ -1,27 +1,3 @@
-<h1 align="center">Simple React template</h1>
+<h1 align="center">Luxury hotel website</h1>
 
-## 🚀 Quick start
-
-1. **Use this template and install files.**
-
-```shell
-  npm install
-```
-
-2. **Start developing**
-
-```shell
-  npm start
-```
-
-3. **Open the source code and start editing!**
-
-By default your site is running at `http://localhost:3000`!
-
-## 📦 What's inside?
-
-- EsLint with airbnb config
-- Prettier
-- Styled Components
-- Axios
-- Husky and Lint staged
+## Created with [community template](<https://www.figma.com/file/WgLGDkTkJAIxAYfPYILMj0/Hotel-Website-Design-(Community)?node-id=0%3A1&viewport=199%2C203%2C0.09968209266662598>)
